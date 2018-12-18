@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wolfusic.Page3">
+    <StackLayout>
+        <Label Text="Year 1981" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Infomation" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Song:Bette Davis Eyes" HorizontalTextAlignment="Center"></Label>
+        <Label Text=" Artist: Kim Carnes" HorizontalTextAlignment="Center"></Label>
+        <Button Text="listen to Music" x:Name="anno1981"></Button>
+        <Image Source="Kim_Carnes_BDE.jpg"></Image>
+    </StackLayout>
+</ContentPage>

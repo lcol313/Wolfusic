@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wolfusic.HomePage"
+             BackgroundImage="Background-4.jpg">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="wollalbert.jpg" WidthRequest="30" HeightRequest="30"></Image>
+            <Label Text="Wolfusic" FontSize="30" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+        <Label Text="Esta aplicación sencilla te permite adquirir el conocimiento de los Top music de los años 80 y 90. Cuando inicies la búsqueda ya tendrás los anos disponibles de la música." FontSize="Large"></Label>
+        <Image Source="lobo.jpg" WidthRequest="300" HeightRequest="300"></Image>
+        <Button Text="Empezar la busqueda" x:Name="nextButton" WidthRequest="50" HeightRequest="50" VerticalOptions="EndAndExpand"></Button>
+    </StackLayout>
+</ContentPage>

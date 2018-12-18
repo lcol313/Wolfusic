@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wolfusic.Page2">
+    <StackLayout>
+        <Label Text="Year 1980" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Infomation" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Song: Escape(The Pina Colada Song)" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Artist: Rupert Holmes" HorizontalTextAlignment="Center"></Label>
+        <Label Text="Date: Dec 22,1979-Jan 4 " HorizontalTextAlignment="Center"></Label>
+        <Button Text="listen to Music" x:Name="anno1980"></Button>
+        <Image Source="Rupert_Holmes_Pina.jpg"></Image>
+    </StackLayout>
+</ContentPage>

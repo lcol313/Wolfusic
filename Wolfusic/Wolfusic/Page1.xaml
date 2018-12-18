@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wolfusic.Page1"
+             BackgroundImage="Background-4">
+              
+    <ScrollView>
+        <StackLayout>
+            <Label 
+                Text="Musica de los 80s-90s" FontSize="Large" HorizontalOptions="Center">
+            </Label>
+            <Button
+             Text="1980" x:Name="año1980" BackgroundColor="Aqua" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1981" x:Name="año1981" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1982" x:Name="año1982" BackgroundColor="Aqua" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1983" x:Name="año1983" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1984" x:Name="año1984" BackgroundColor="Aqua" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1985" x:Name="año1985" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1986" x:Name="año1986" BackgroundColor="Aqua" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1987" x:Name="año1987" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1988" x:Name="año1988" BackgroundColor="Aqua" HorizontalOptions="Center">
+            </Button>
+            <Button
+            Text=" 1989" x:Name="año1989" HorizontalOptions="Center">
+            </Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
